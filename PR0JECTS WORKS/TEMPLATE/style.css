@@ -1,0 +1,21 @@
+.main
+{
+position: relative;
+text-align: center;
+color: beige;
+padding: 10px;
+margin: 0%;
+/* box-sizing: content-box; */
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    color: rgb(44, 92, 134);
+    padding: 10px;
+    font-size: 20px;
+
+
+}
+

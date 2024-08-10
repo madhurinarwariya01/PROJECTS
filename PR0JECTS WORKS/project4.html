@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 50px;
+  text-align: center;
+  background: #141414;
+  color: white;
+  text-shadow: 5PX 5PX 5PX rgb(172, 71, 158);
+  font-size: 35PX;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  display: flex;
+  background-color: #7a1b86;
+  color: black;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #080808;
+  color: rgb(240, 229, 229);
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #a340a0;
+  padding: 20px;
+  color: rgb(3, 3, 3);
+}
+
+/* Main column */
+.main {
+  flex: 70%;
+  background-color: rgb(119, 23, 119);
+  padding: 20px;
+  /* color: antiquewhite; */
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #1a1616;
+  width: 100%;
+  padding: 20px;
+  color: rgb(124, 30, 148);
+  float: right;
+  text-align:center;
+  text-shadow:10px 10px 10px #d867e2;
+  box-shadow: 20px 20px #d430c7;
+  
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- Note -->
+<div style="background:rgb(157, 58, 160);padding:5px;font-style: italic;color: #302e2e;">
+  <h4 style="text-align:center">FULL-STACK WEB DEVELOPER</h4>
+  
+</div>
+
+<!-- Header -->
+<div class="header">
+  <h1>ComeOut</h1>
+  <p>PeRsOnAL <b>PoRtFoLiO</p>
+</div>
+
+<!-- Navigation Bar -->
+<div class="navbar">
+  <a href="#">HOME</a>
+  <a href="#">ABOUT </a>
+  <a href="#">PROJECTS LINK</a>
+  <a href="#">SKILLS</a>
+</div>
+<!-- The flexible grid (content) -->
+<div class="row">
+  <div class="side">
+    <h2>About Me</h2>
+    <h5>heyy!! everyone it's me madhui narwariya</h5>
+    <div class="fakeimg" style="height:240px;"><IMG src="me2.jpg"><img src="meeeeee3.jpg"></div>
+    <br>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sint ex suscipit expedita provident ducimus sapiente quae nesciunt quaerat. Delectus quisquam tempore, vel quasi quae necessitatibus. Temporibus officia velit quibusdam?</p>
+    <h3> contact me-:</h3>
+    <p></p>
+    <div class="fakeimg" style="height:60px;">NAME : madhuri narwariya</div><br>
+    <div class="fakeimg" style="height:60px;">CONTACT NO.:8889545844</div><br>
+    <div class="fakeimg" style="height:60px;">EMAIL : narwariyamadhuri9@gmail.com</div>
+  </div>
+  <div class="main">
+    <h2> PROJECTS LINK</h2>
+    <h5></h5>
+    <div class="fakeimg" style="height:250px;text-align: center;"><a href="imagegalley.html" style="color: #2422b8;font-size: 30px;">IMAGE GALLERY</a>
+      <pre><a href="project2/index.html" style="color: #2422b8; font-size: 20px;"> ALIEN FORCE</a></pre>
+      <pre><a href="project3/intex.html"style="font-size:25px">PARALLAX SCROLLING</a></pre>
+      <pre> <a href="project1/style.css boys.htm"style="font-size:20px">SHOPPING SITE</a></pre>
+      <pre><a href="PROJECT/AnimalSlider/index.html"style="font-size:25px">ANIMAL SLAIDER</a></pre>
+      </div>
+      <p>Some text..</p>
+    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <br>
+    <h2>TITLE HEADING</h2>
+    <h5>Title description, Sep 2, 2017</h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>Some text..</p>
+    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+  </div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+</body>
+</html>
